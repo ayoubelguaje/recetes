@@ -50,6 +50,8 @@ margin-right: 10px;
 }
 .nav-list ul li::after{
     content: ' |';
+    font-weight: 700;
+    font-size: 18pt;
     }
     .nav-list ul li:last-child::after{
         content: '';
@@ -151,4 +153,21 @@ footer .footer2  span a{
 }
 footer .footer2  span a:hover{
     color: white;
+}
+/* seconde page form */
+.contactar{
+    background-color: #f8eadd;
+    
+}
+form{
+    margin: 40px auto;
+    width: 60%;
+    text-align: center;
+    padding: 50px 0;
+}
+label{
+    display: block;
+}
+.contactar input{
+    margin-bottom: 20px;
 }
