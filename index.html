@@ -1,82 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>recetes</title>
-    <link rel="stylesheet" href="style.css">
-     <!-- fontawsome -->
-     <link rel="stylesheet" href="font-awsome/css/all.min.css">
+    <title>Mis Recetas</title>
+    <!--Add Bootstrap-->
+    <link rel="stylesheet" href="style/css/bootstrap.css">
+    <!--Add Font Awsome-->
+    <link rel="stylesheet" href="style/font-awsome/css/all.min.css">
+    <!--Add File Css Extern-->
+    <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-   <div class="container">
-       <div class="nav-bar">
-           <header>
-               <h1>La Casa Del Sabor</h1>
-           </header>
-           <div class="nav-list">
-                <ul>
-                    <li ><a class="active" href="index.html">Inicio</a></li>
-                    <li><a href="#">Recetas</a></li>
-                    <li><a href="contactar.html">Contactar</a></li>
-                    <li><a href="#">Sobre Nosotros</a></li>
+    <!--Star Upper Bar-->
+    <div class="upper-bar text-center">
+        <div class="container">
+            <div class="row">
+                <div class=" col-xs-12  col-sm-6">
+                    <span><i class="fas fa-phone-square-alt fa-lg"></i>&nbsp;+34 666 666 666</span>
+                </div>
+                <div class=" col-xs-12 col-sm-6">
+                    <span><i class="fas fa-envelope-square fa-lg"></i>&nbsp;<a class="text-decoration-none"
+                            href="mailto:info@misrecetas.com">info@misrecetas.com</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Upper Bar-->
+    <!--Star NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span>Mis</span><span>Recetas</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex mt-3 mt-lg-0">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <ul class="  navbar-nav ms-auto mb-3 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactar</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Recetas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Receta 1</a></li>
+                            <li><a class="dropdown-item" href="#">Receta 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Receta 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Nosotros</a>
+                    </li>
                 </ul>
             </div>
-       </div>
-       <main class="main">
-           <section class="section">
-               <article class="article">
-                   <h3><i class="fas fa-utensils"></i> &nbsp; <a href="receta1.html">Receta 1</a></h2>
-                   <span>CANELONES DE JAMÓN YORK RELLENOS DE ENSALADILLA RUSA</span>
-                   <img src="img/Canelones de jamón york y ensaladilla rusa.jpg" alt="canelones">
-                   <p>En este precioso día tenemos una receta sencilla, una de las más sencillas que he hecho hasta la fecha diría yo. Con una ensaladilla rusa se pueden hacer muchas otras cosas a parte de comerla sola. Un buen ejemplo de ello son estos impresionantes canelones hechos con jamón york en vez de pasta y rellenos con la ensaladilla.</p>
-                </article>
-                <hr>
-                <article>
-                    <h3><i class="fas fa-utensils"></i> &nbsp;Receta 2</h2>
-                    <span>ALMEJAS PICANTONAS CON TOMATE</span>
-                    <img src="img/almejas-con-tomate-picantonas.jpg" alt="almejas">
-                    <p>¡Me sentaría y no pararía de comer! De hecho es lo que hicimos todos en casa cuando las preparé, todas las que veis ahí duraron 10 minutos escasos así que imaginad lo ricas que están. Ojalá podáis prepararlas muy pronto en vuestras casas porque es un plato que no os podéis perder bajo ningún concepto.</p>
-                </article>
-                <hr>
-                <article>
-                     <h3><i class="fas fa-utensils"></i> &nbsp;Receta 3</h3>
-                     <span>TORTILLA DE PATATA RELLENA CON ENSALADILLA RUSA</span>
-                     <img src="img/tortilla-de-patata-rellena-de-ensaladilla.jpg" alt="tortilla">
-                     <p>Es posible que os suene raro una tortilla de patata rellena de ensaladilla rusa, pero en muchos bares la he visto servida como pincho y he querido incluirla en mi recetario. Estoy muy seguro de que esta receta os va a solucionar muchas comidas y cenas porque es muy fácil y teniendo hecha la ensaladilla rusa, solo tenéis que hacer una buena tortilla de patata y luego rellenarla.</p>
-                </article>
-           </section>
-           <aside class="aside">
-            <h2><i class="fas fa-utensils"></i> &nbsp;Menu Del Dia &nbsp;<i class="fas fa-utensils"></i></h2>
-            <div class="aside-list">
-                <ul>
-                    <li class="menu-text">Crema fría de zanahoria y manzana verde</li>
-                    <li><img src="img/menu del dia 1.jpg " alt="menu1"></li>
-                    <li class="menu-text">Brócoli con salsa de mango y anacardos</li>
-                    <li><img src="img/menu del dia 4.jpg" alt="menu4"></li>
-                    <li class="menu-text">Contramuslos de pollo al aroma de Oriente Medio</li>
-                    <li><img src="img/menu del dia 2.jpg" alt="menu2"></li>
-                    <li class="menu-text">Cake de almendra y mermelada de fresa</li>
-                    <li><img src="img/menu del dia 3.jpg" alt="menu3"></li>
-                </ul>
-            </div>    
-           </aside>
-       </main>
-       <div class="float"></div>
-       <footer class="footer">
-           <div class="footer1">
-            <h3>La Casa Del Sabor</h3>
-            <span>Copyright &COPY; AyOuB EL GuaJe 2021</span>
-           </div>
-           
-           <div class="footer2">
-               <h3>Siguenos En</h3>
-               <span><a href="#"><i class="fab fa-youtube fa-2x"></i></a></span>
-               <span><a href="#"><i class="fab fa-instagram-square fa-2x"></i></a></span>
-               <span><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></span>
-           </div>
-       </footer>
-   </div>
-
+        </div>
+    </nav>
+    <!--End NavBar-->
+    <!--Star Slider-->
+    <div id="my-slider" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#my-slider" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#my-slider" data-bs-slide-to="1"></li>
+            <li data-bs-target="#my-slider" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/almejas-con-tomate-picantonas.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/Canelones de jamón york y ensaladilla rusa.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="-resources/receta1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#my-slider" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#my-slider" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+    <!--End Slider-->
+    <!--Star content-->
+    <!--End content-->
+    <!--Star NavBar-->
+    <!--Bootstrap Bundle with Popper -->
+    <script src="style/js/bootstrap.bundle.min.js"></script>
+    <!--Add js File-->
+    <script src="main.js"></script>
 </body>
+
 </html>

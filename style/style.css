@@ -1,0 +1,52 @@
+body{
+    height: 4000px;
+}
+.upper-bar{
+    background-color: #08526d;
+    padding: 10px;
+    color: white;
+}
+.upper-bar span >a{color: white;}
+nav span:first-child{
+    color: #08526d;
+}
+nav span:last-child{
+    color: #ec1c23;
+}
+.navbar-light .navbar-toggler{
+    color: #08526d;
+}
+nav .navbar-collapse button{
+    border: 1px solid #ec1c23;
+    color: #08526d;
+    font-weight: 600;
+}
+nav .navbar-collapse button:hover{
+    background-color: #ec1c23;
+    border: 1px solid #08526d;
+}
+.navbar-light .navbar-nav .nav-link ,
+.navbar-light .navbar-nav .dropdown-menu .dropdown-item,
+.navbar-light .navbar-nav .dropdown-menu .dropdown-divider{
+    color: #08526d;
+    font-weight: 600;
+    transition: padding 0.6s ease-in-out;
+}
+.navbar-light .navbar-nav .dropdown-menu .dropdown-divider{
+    
+}
+.navbar-light .navbar-nav .dropdown-menu .dropdown-item:hover{
+    padding-left: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .dropdown-menu .dropdown-item:hover {
+    color: #ec1c23;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active{
+    color: #ec1c23;
+    font-weight: 600;
+}
+.my-slider{
+    width: auto;
+    height: 400px;
+}
