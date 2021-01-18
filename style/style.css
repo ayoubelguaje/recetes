@@ -1,17 +1,21 @@
-body{
-    height: 4000px;
-}
+
 .upper-bar{
     background-color: #08526d;
     padding: 10px;
     color: white;
 }
-.upper-bar span >a{color: white;}
-nav span:first-child{
-    color: #08526d;
+.upper-bar span >a{
+    color: white;
 }
-nav span:last-child{
+nav span:first-child,
+footer .row .footer-1 span:first-child{
+    color: #08526d;
+    font-weight: 600;
+}
+nav span:last-child,
+footer .row .footer-1 span:last-of-type{
     color: #ec1c23;
+    font-weight: 600;
 }
 .navbar-light .navbar-toggler{
     color: #08526d;
@@ -50,3 +54,115 @@ nav .navbar-collapse button:hover{
     width: auto;
     height: 400px;
 }
+main{
+
+}
+main .recatas .receta-1,
+main .recatas .receta-2,
+main .recatas .receta-3,
+main .recatas .receta-4{
+    
+    
+}
+main .recatas .receta-1 .img-fluid,
+main .recatas .receta-2 .img-fluid,
+main .recatas .receta-3 .img-fluid,
+main .recatas .receta-4 .img-fluid{
+    
+    
+}
+main  h3{
+background-color:#ec1c23;
+padding: 10px;
+color: white;
+margin: 10px auto;
+}
+h2{
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #08526d;
+    color: white;
+    
+}
+.newsletter{
+    background-color: #ec1c23;
+    padding: 30px;
+    margin: 20px auto;
+    color: white;
+}
+.newsletter .form-control{
+   width: 40%;
+   margin: 15px auto;
+   font-size: 16pt;
+}
+.newsletter form button{
+    background-color: #08526d;
+    border-color: white;
+    
+}
+.newsletter form button:hover{
+    background-color:white;
+    color:#08526d;
+}
+footer .row .footer-1 span{
+    font-size: 18px;
+}
+footer .row .footer-1 a .icone{
+    color: #ec1c23;
+}
+footer .row .footer-2 ul li,
+footer .row .footer-3 ul li{
+    margin-bottom: 10px;
+
+}
+footer a{
+    text-decoration: none;
+    color:#08526d;
+    font-weight: 600;
+}
+footer a:hover{
+    color: #ec1c23;
+}
+footer .row .footer-2 ul li a::before{
+    font-family:'font Awesome 5 Free';
+    content: "\f138";
+    margin-right: 5px;
+    font-weight:bold;
+    color: #ec1c23;
+}
+footer .copyright {
+    border-top: 1px solid #08526d;
+    padding: 10px;
+}
+footer .copyright ul li{
+    display: inline-block;
+    margin-left: 10px;  
+}
+/* contactar page */
+.contactar form input{
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 5px 40px;
+ }
+ .contactar{
+     margin: 40px auto;
+ }
+ .contactar form{
+     margin: 20px auto;
+     background-color: #ec1c23;
+     padding: 20px;
+ }
+ .contactar form .btn{
+     background-color: white;
+     color:  #08526d;
+     font-weight: 600;
+ }
+ .contactar form .btn:hover{
+     background-color:#08526d;
+     color: white;
+ }
+ .contactar h3{
+     color: #08526d;
+ }

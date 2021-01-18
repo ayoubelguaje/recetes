@@ -1,11 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--Add Bootstrap-->
+    <link rel="stylesheet" href="style/css/bootstrap.css">
+    <!--Add Font Awsome-->
+    <link rel="stylesheet" href="style/font-awsome/css/all.min.css">
+    <!--Add File Css Extern-->
+    <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-    
+    <!--Star Upper Bar-->
+    <div class="upper-bar text-center">
+        <div class="container">
+            <div class="row">
+                <div class=" col-xs-12  col-sm-6">
+                    <span><i class="fas fa-phone-square-alt fa-lg"></i>&nbsp;+34 666 666 666</span>
+                </div>
+                <div class=" col-xs-12 col-sm-6">
+                    <span><i class="fas fa-envelope-square fa-lg"></i>&nbsp;<a class="text-decoration-none"
+                            href="mailto:info@misrecetas.com">info@misrecetas.com</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Upper Bar-->
+    <!--Star NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span>Mis</span><span>Recetas</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex mt-3 mt-lg-0">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <ul class="  navbar-nav ms-auto mb-3 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactar</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Recetas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Receta 1</a></li>
+                            <li><a class="dropdown-item" href="#">Receta 2</a></li>
+                            <li><a class="dropdown-item" href="#">Receta 3</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Menu del dia</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--End NavBar-->
+    <!--Star form contactar-->
+    <div class="contactar ">
+        <div class="container">
+            <h3 class="text-center">Contactar</h3>
+            <form class=" text-center" method="POST" action="">
+                <input class="form-control" type="text" name="nombre" placeholder="Escribe tu nombre" required>
+                <input class="form-control" type="email" name="email" placeholder="Escribe tu Email" required>
+                <input class="form-control" type="text" name="numero" placeholder="Escribe tu numero teléfono">
+                <textarea class="form-control" cols="60" rows="10"></textarea>
+                <input id="send" class="btn btn-primary" type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+    <!--End form contactar--->
+    <!--========= Star Footer ==================-->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class=" footer-1 col-xs-12 col-sm-12 col-lg-5">
+                    <span>Quiénes</span><span>Somos</span>
+                    <p class="lh-lg mt-3">La vida entre fogones, el arte y el placer de cocinar y descubrir los
+                        beneficios de la comida sana se dan cita en Directo al Paladar, el blog de cinco tenedores de
+                        Webedia. Tanto para cocineros principiantes, como para curiosos que buscan descubrir nuevas
+                        maneras de sorprender a los suyos, Directo al Paladar brinda los ingredientes para hacer la
+                        receta más indicada. Enología, dieta mediterránea, delicatessen con los más finos ingredientes y
+                        cursos de cocina imprescindibles para resolver las dudas de qué ingredientes utilizar, cómo
+                        alimentarnos mejor y, también, que restaurantes no perdernos cuando salimos a comer fuera.</p>
+                    <a class="text-decoration-none fw-bold" href="#"><i
+                            class=" icone fas fa-chevron-circle-right"></i>&nbsp;Lea lo siguiente</a>
+                </div>
+                <div class=" footer-2 col-xs-12 col-sm-6 col-lg-4">
+                    <h3>Enlaces de Utilés</h3>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+
+                            <ul class="list-unstyled mt-3">
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#">Contactar</a></li>
+                                <li><a href="#">Recetas</a></li>
+                                <li><a href="#">Sobre Nosotros</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <ul class="list-unstyled mt-3 ">
+                                <li><a href="#">Receta 1</a></li>
+                                <li><a href="#">Receta 2</a></li>
+                                <li><a href="#">Receta 3</a></li>
+                                <li><a href="#">Menu del dia</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class=" footer-3 col-xs-12 col-sm-6 col-lg-3">
+                    <h3>Contactanos</h3>
+                    <ul class="list-unstyled mt-3">
+                        <li>48000 Calle Ercilla</li>
+                        <li>Bilbao &nbsp;Espana</li>
+                        <li>Té0l: +34 600 700 500</li>
+                        <li>Email:&nbsp;<a class="text-decoration-none "
+                                href="mailto:ayoubguaje@gmail.com?subject=contact">AyOuBGuaJe@gmail.com</a></li>
+                    </ul>
+
+                </div>
+                <p style="background-color: red;"></p>
+            </div>
+            <div class="copyright">
+                <div class="row">
+                    <!--=============Star Copyright ============-->
+                    <div class=" col text-star text-uppercase">
+                        Copyright &copy; <a href="#">AyOuB El GuaJe</a> All right reserved 2021
+                    </div>
+                    <div class="col text-end">
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fab fa-facebook fa-lg"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube fa-lg"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram-square fa-lg"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                        </ul>
+                    </div>
+                    <!--=============End Copyright =============-->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--========= End Footer ===================-->
+    <!--Bootstrap Bundle with Popper -->
+    <script src="style/js/bootstrap.bundle.min.js"></script>
+    <!--Add js File-->
+    <script src="main.js"></script>
 </body>
+
 </html>
