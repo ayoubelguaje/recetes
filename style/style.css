@@ -54,23 +54,13 @@ nav .navbar-collapse button:hover{
     width: auto;
     height: 400px;
 }
-main{
+main a{
+    color: white;
+}
+main a:hover{
+    color:#08526d;
+}
 
-}
-main .recatas .receta-1,
-main .recatas .receta-2,
-main .recatas .receta-3,
-main .recatas .receta-4{
-    
-    
-}
-main .recatas .receta-1 .img-fluid,
-main .recatas .receta-2 .img-fluid,
-main .recatas .receta-3 .img-fluid,
-main .recatas .receta-4 .img-fluid{
-    
-    
-}
 main  h3{
 background-color:#ec1c23;
 padding: 10px;
@@ -166,3 +156,19 @@ footer .copyright ul li{
  .contactar h3{
      color: #08526d;
  }
+ /* recata 1 */
+.receta1 header{
+    border: 2px solid #08526d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ec1c23;
+    color: white;
+}
+.receta1 header span{
+    color: #08526d;
+}
+.receta1 p{
+    text-align: start;
+    font-size: 16pt;
+}
